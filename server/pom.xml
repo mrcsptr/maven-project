@@ -14,19 +14,7 @@
   <packaging>jar</packaging>
   <name>Server</name>
   <description>Logic.</description>
-<plugin>
-  <groupId>com.github.spotbugs</groupId>
-  <artifactId>spotbugs-maven-plugin</artifactId>
-  <version>3.1.11</version>
-  <dependencies>
-    <!-- overwrite dependency on spotbugs if you want to specify the version of spotbugs -->
-    <dependency>
-      <groupId>com.github.spotbugs</groupId>
-      <artifactId>spotbugs</artifactId>
-      <version>3.1.12</version>
-    </dependency>
-  </dependencies>
-</plugin>
+
   <build>
     <finalName>${project.artifactId}</finalName>
   </build>
